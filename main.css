@@ -1,0 +1,49 @@
+.maintitle {
+  text-align: center;
+  color: yellow;
+  font-size: 100pt;
+}
+
+.firstdescription {
+  text-align: center;
+  color: grey;
+}
+
+.firsttitle {
+  text-align: center;
+  color: aqua;
+}
+.firstlist {
+  color: cornflowerblue;
+  font-size: 20pt;
+}
+
+th {
+  color: rgb(55, 143 ,250);
+}
+td {
+  text-align: center;
+  color: #78DDF1;
+  border-width: 2px;
+  border-style: dashed;
+  border-color: lightsteelblue;
+  background-color: black;
+  
+}
+#happypikachu {
+  float: right;
+  border-width: 4px;
+  border-style: solid;
+  border-color: khaki;
+}
+
+a {
+  color: blue;
+}
+#div3 {
+  background-color: lightsteelblue;
+  width: 100px;
+  border: 1px;
+  border-color:blue;
+  font-size: 15pt;
+  margin: 5pt;
