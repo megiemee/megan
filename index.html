@@ -1,16 +1,19 @@
 <html>
   <head>
-    <th1>Hello</th1>
+    <h1 class="maintitle">Pokemon</h1>
   </head>
   <body>
     <div>
+      
       <h2 class="firsttitle">March <em>"holidays"</em> computing homework</h2>
-      <p>This is here for no reason</p>
+      <p class="firstdescription">My first static webpage that took way too long to do</p>
+      <img src="https://cdn.bulbagarden.net/upload/b/b8/025Pikachu_LG.png" width=25% id="happypikachu"/>
       <ul class="firstlist">
-        <li>part one</li>
-        <li>part two</li>
-        <li>part three</li>
-        <li>part four</li>
+        <p class = "lheader">Types of pokemon</p>
+        <li>water</li>
+        <li>fire</li>
+        <li>grass</li>
+        <li>electric</li>
       </ul>
       <table>
         <tr>
@@ -45,15 +48,16 @@
         </tr>
     </div>
     <div>
-      <img src="https://cdn.bulbagarden.net/upload/b/b8/025Pikachu_LG.png" width=25% id="happypikachu"/>
+     <p>What is your favourite pokemon?</p>
+     <input type="text" size="30" maxlength="100" />
+      <p>Upload a picture of the pokemon below: </p>
+     <form action="/action_page.php">
+  <input type="file" name="filename">
+</form>
+      </div>  
       
    <div id="div3">
      <input type = "button" value = "Submit" onclick = "alert('Not really this doesn't actually work)">
       </div>
-   <div>
-     <input type="text" size="30" maxlength="100" />
-     <form action="/action_page.php">
-  <input type="file" name="filename">
-</form>
-      </div>
-      </html>   
+   
+      </html>  
