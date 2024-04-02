@@ -7,7 +7,7 @@ img {
     height:100;
     display:inline-block;
 };
-body {background-image:url(Background.jpg);
+body {background-image:url(/Background.jpg);
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment:fixed;
