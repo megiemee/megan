@@ -1,0 +1,19 @@
+body {background-color:powderblue;}
+h1   {color:blue;}
+p    {color:red;}
+
+img {
+    width:100;
+    height:100;
+    display:inline-block;
+};
+body {background-image:url(Background.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+  }
+table {
+    border:2px solid green;
+    color:rgb(199, 237, 255);
+    font-family:Verdana;
+}
